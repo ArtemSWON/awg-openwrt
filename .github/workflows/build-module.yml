@@ -17,16 +17,6 @@ jobs:
             target: mediatek
             subtarget: filogic
             vermagic: "bcaaaeb1ca04375fbdc1f353e8a31d7d-r1"
-          - tag: "24.10.4"
-            pkgarch: aarch64_cortex-a53
-            target: mediatek
-            subtarget: filogic
-            vermagic: "bcaaaeb1ca04375fbdc1f353e8a31d7d-r1"
-          - tag: "24.10.4"
-            pkgarch: aarch64_cortex-a53
-            target: mediatek
-            subtarget: filogic
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
 
     steps:
       - uses: actions/checkout@v4
